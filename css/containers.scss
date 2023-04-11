@@ -1,0 +1,179 @@
+$hc:#4e4e4e;
+$tc:#545454;
+
+$classic:hsl(220,80%,60%);
+$danger:hsl(0,80%,60%);
+$info:hsl(35,80%,60%);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color:$hc;
+}
+
+fast-f-s-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+}
+
+fast-h1{
+    margin:6px;
+    font-size:42px;
+    margin-bottom:20px;
+    font-weight: 700;
+}
+
+fast-h2{
+    margin:6px;
+    font-size:28px;
+    margin-bottom:14px;
+    font-weight: 700;
+}
+
+fast-h3{
+    margin:6px;
+    font-size:18px;
+    margin-bottom:9px;
+    font-weight: 700;
+}
+
+fast-text{
+    margin:6px;
+    font-size:18px;
+    font-weight: 500;
+    color:$tc;
+    width: fit-content;
+}
+
+fast-line{
+    margin-top:0.1em;
+    width:100%;
+    height: 0.1em;
+    margin-bottom:0.1em;
+}
+
+fast-col{
+    display:flex;
+    flex-direction: column;
+}
+
+fast-col.cntr{
+    align-items: center;
+}
+
+fast-row{
+    display:flex;
+    flex-direction: row;
+}
+
+fast-row.cntr{
+    justify-content: center;
+}
+
+fast-btn{
+    background-color:$classic;
+    color:white;
+    border:$classic solid 1px;
+    padding:10px 20px;
+    border-radius: 5px;
+    margin:5px;
+    cursor:pointer;
+    transition:all 0.4s;
+}
+
+fast-btn:hover{
+    background-color:white;
+    color:$classic;
+    border:$classic solid 1px;
+}
+
+fast-btn-outline{
+    color:$classic;
+    border:$classic solid 1px;
+    padding:10px 20px;
+    border-radius: 5px;
+    margin:5px;
+    cursor:pointer;
+    transition:all 0.4s;
+}
+
+fast-btn-outline:hover{
+    background-color:$classic;
+    color:white;
+    border:$classic solid 1px;
+}
+
+fast-btn.danger{
+    background-color:$danger;
+    border:$danger solid 1px;
+}
+
+fast-btn.danger:hover{
+    background-color: white;
+    color:$danger;
+}
+
+fast-btn-outline.danger{
+    color:$danger;
+    border:$danger solid 1px;
+}
+
+fast-btn-outline.danger:hover{
+    background-color: $danger;
+    color:white;
+    border:$danger solid 1px;
+}
+
+fast-btn.info{
+    background-color:$info;
+    border:$info solid 1px;
+}
+
+fast-btn.info:hover{
+    color:$info;
+    background-color:white;
+    border:$info solid 1px;
+}
+
+fast-btn-outline.info{
+    color:$info;
+    border:$info solid 1px;
+}
+
+fast-btn-outline.info:hover{
+    color:white;
+    background-color:$info;
+    border:$info solid 1px;
+}
+
+.fit {
+    width: fit-content;
+    height: fit-content;
+}
+
+.sqr{
+    border:$hc solid 1px;
+    margin:10px;
+    padding:10px;
+}
+
+.sqr.br-5{
+    border-radius: 5px;
+}
+
+.sqr.br-10{
+    border-radius: 10px;
+}
+
+.sqr.br-20{
+    border-radius: 20px;
+}
+
+.sqr.br-30{
+    border-radius: 30px;
+}
+
+
+
